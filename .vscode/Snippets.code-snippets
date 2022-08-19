@@ -1,0 +1,25 @@
+{
+		"HTML.Template":
+		 {
+			"prefix": "h",
+			"body": [
+				"<!DOCTYPE html>",
+			"<html> ",
+		   "<head> ",
+			   "<meta charset=${1}> ",
+			   "<title> ${2:<!-- Insert your title here -->} </title>",
+			"</head> ",
+			   "<body>",
+				"${3:<!-- Insert your content here -->}",	 
+			   "</body>",	
+			"</html> "],
+			"description": "description"
+		},
+		"encode":
+		{
+			"prefix": "ut",
+			"body": ["utf-8"],
+			}
+		
+}
+
